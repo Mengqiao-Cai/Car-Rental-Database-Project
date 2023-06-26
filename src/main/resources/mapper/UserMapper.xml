@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cly.finalproj.mapper.UserMapper">
+
+    <insert id="insert">
+        INSERT INTO USERS (username, salt, password, firstname, lastname, cid) VALUES(#{username}, #{salt}, #{password}, #{firstName}, #{lastName}, #{cid})
+    </insert>
+
+    <select id="findAllUsers" resultType="com.cly.finalproj.entity.User">
+        select * from users
+    </select>
+
+    <select id="findUserById" resultType="com.cly.finalproj.entity.User">
+        select * from users where userId = #{userId}
+    </select>
+
+    <select id="getUser" resultType="com.cly.finalproj.entity.User">
+        select * from users where username = #{username}
+    </select>
+</mapper>

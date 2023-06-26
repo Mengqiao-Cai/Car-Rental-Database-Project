@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie ie7 lt-ie9 lt-ie8"        lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie ie8 lt-ie9"               lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie ie9"                      lang="en"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-ie">
+<!--<![endif]-->
+
+<head>
+   <!-- Meta-->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="author" content="">
+   <title>BeAdmin - Bootstrap Admin Theme</title>
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+   <!-- Bootstrap CSS-->
+   <link rel="stylesheet" href="app/css/bootstrap.css">
+   <!-- Vendor CSS-->
+   <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+   <link rel="stylesheet" href="vendor/animo/animate+animo.css">
+   <link rel="stylesheet" href="vendor/csspinner/csspinner.min.css">
+   <!-- START Page Custom CSS-->
+   <!-- END Page Custom CSS-->
+   <!-- App CSS-->
+   <link rel="stylesheet" href="app/css/app.css">
+   <!-- Modernizr JS Script-->
+   <script src="vendor/modernizr/modernizr.js" type="application/javascript"></script>
+   <!-- FastClick for mobiles-->
+   <script src="vendor/fastclick/fastclick.js" type="application/javascript"></script>
+</head>
+
+<body>
+   <!-- START Main wrapper-->
+   <div class="wrapper">
+      <!-- START Top Navbar-->
+      <nav role="navigation" class="navbar navbar-default navbar-top navbar-fixed-top">
+         <!-- START navbar header-->
+         <div class="navbar-header">
+            <a href="index.html" class="navbar-brand">
+               <div class="brand-logo">
+                  <img src="app/img/logo_cly.png" alt="App Logo" class="img-responsive">
+               </div>
+               <div class="brand-logo-collapsed">
+                  <img src="app/img/logo_cly.png" alt="App Logo" class="img-responsive">
+               </div>
+            </a>
+         </div>
+         <!-- END navbar header-->
+         <!-- START Nav wrapper-->
+         <div class="nav-wrapper">
+            <!-- START Left navbar-->
+            <ul class="nav navbar-nav">
+               <li>
+                  <!-- Button used to collapse the left sidebar. Only visible on tablet and desktops-->
+                  <a href="template.html#" data-toggle-state="aside-collapsed" class="hidden-xs">
+                     <em class="fa fa-navicon"></em>
+                  </a>
+                  <!-- Button to show/hide the sidebar on mobile. Visible on mobile only.-->
+                  <a href="template.html#" data-toggle-state="aside-toggled" class="visible-xs">
+                     <em class="fa fa-navicon"></em>
+                  </a>
+               </li>
+               <!-- START Messages menu (dropdown-list)-->
+               <li class="dropdown dropdown-list">
+                  <a href="template.html#" data-toggle="dropdown" data-play="flipInX" class="dropdown-toggle">
+                     <em class="fa fa-envelope"></em>
+                  </a>
+                  <!-- START Dropdown menu-->
+                  <ul class="dropdown-menu">
+                     <li class="dropdown-menu-header">Unread messages</li>
+                     <li class="p-sm">
+                        <input type="text" placeholder="Find contacts.." onfocus="javascript:void(0);" class="form-control">
+                     </li>
+                     <li>
+                        <div class="scroll-viewport">
+                           <!-- START list group-->
+                           <div class="list-group scroll-content">
+                              <!-- START list group item-->
+                              <a href="template.html#" class="list-group-item">
+                                 <div class="media">
+                                    <div class="pull-left">
+                                       <img src="app/img/user/01.jpg" alt="Image" class="media-object img-circle thumb32">
+                                    </div>
+                                    <div class="media-body clearfix">
+                                       <small class="pull-right">5m</small>
+                                       <strong class="media-heading text-primary">
+                                          <span class="circle circle-success circle-md"></span>Greg Lewis</strong>
+                                       <p class="mb-sm">
+                                          <small>Nunc vel dui et leo sagittis fringilla.</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </a>
+                              <!-- END list group item-->
+                              <!-- START list group item-->
+                              <a href="template.html#" class="list-group-item">
+                                 <div class="media">
+                                    <div class="pull-left">
+                                       <img src="app/img/user/04.jpg" alt="Image" class="media-object img-circle thumb32">
+                                    </div>
+                                    <div class="media-body clearfix">
+                                       <small class="pull-right">3h</small>
+                                       <strong class="media-heading text-primary">
+                                          <span class="circle circle-success circle-md"></span>Constance Cook</strong>
+                                       <p class="mb-sm">
+                                          <small>Nunc vel dui et leo sagittis fringilla.</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </a>
+                              <!-- END list group item-->
+                              <!-- START list group item-->
+                              <a href="template.html#" class="list-group-item">
+                                 <div class="media">
+                                    <div class="pull-left">
+                                       <img src="app/img/user/03.jpg" alt="Image" class="media-object img-circle thumb32">
+                                    </div>
+                                    <div class="media-body clearfix">
+                                       <small class="pull-right">3h</small>
+                                       <strong class="media-heading text-primary">
+                                          <span class="circle circle-danger circle-md"></span>Cody Barnes</strong>
+                                       <p class="mb-sm">
+                                          <small>Nunc vel dui et leo sagittis fringilla.</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </a>
+                              <!-- END list group item-->
+                              <!-- START list group item-->
+                              <a href="template.html#" class="list-group-item">
+                                 <div class="media">
+                                    <div class="pull-left">
+                                       <img src="app/img/user/05.jpg" alt="Image" class="media-object img-circle thumb32">
+                                    </div>
+                                    <div class="media-body clearfix">
+                                       <small class="pull-right">4h</small>
+                                       <strong class="media-heading text-primary">
+                                          <span class="circle circle-danger circle-md"></span>Gina Robinson</strong>
+                                       <p class="mb-sm">
+                                          <small>Nunc vel dui et leo sagittis fringilla.</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </a>
+                              <!-- END list group item-->
+                              <!-- START list group item-->
+                              <a href="template.html#" class="list-group-item">
+                                 <div class="media">
+                                    <div class="pull-left">
+                                       <img src="app/img/user/06.jpg" alt="Image" class="media-object img-circle thumb32">
+                                    </div>
+                                    <div class="media-body clearfix">
+                                       <small class="pull-right">yesterday</small>
+                                       <strong class="media-heading text-primary">
+                                          <span class="circle circle-danger circle-md"></span>Violet Olson</strong>
+                                       <p class="mb-sm">
+                                          <small>Nunc vel dui et leo sagittis fringilla.</small>
+                                       </p>
+                                    </div>
+                                 </div>
+                              </a>
+                              <!-- END list group item-->
+                           </div>
+                           <!-- END list group-->
+                        </div>
+                     </li>
+                     <!-- START dropdown footer-->
+                     <li class="p">
+                        <a href="template.html#" class="text-center">
+                           <small class="text-primary">More messages</small>
+                        </a>
+                     </li>
+                     <!-- END dropdown footer-->
+                  </ul>
+                  <!-- END Dropdown menu-->
+               </li>
+               <!-- END Messages menu (dropdown-list)-->
+               <!-- START User avatar toggle-->
+               <li>
+                  <!-- Button used to collapse the left sidebar. Only visible on tablet and desktops-->
+                  <a href="template.html#" data-toggle-state="aside-user">
+                     <em class="fa fa-user"></em>
+                  </a>
+               </li>
+               <!-- END User avatar toggle-->
+            </ul>
+            <!-- END Left navbar-->
+         </div>
+         <!-- END Nav wrapper-->
+         <!-- START Search form-->
+         <form role="search" action="search.html" class="navbar-form">
+            <div class="form-group has-feedback">
+               <input type="text" placeholder="Type and hit Enter.." class="form-control">
+               <div data-toggle="navbar-search-dismiss" class="fa fa-times form-control-feedback"></div>
+            </div>
+            <button type="submit" class="hidden btn btn-default">Submit</button>
+         </form>
+         <!-- END Search form-->
+      </nav>
+      <!-- END Top Navbar-->
+      <!-- START aside-->
+      <aside class="aside">
+         <!-- START Sidebar (left)-->
+         <nav class="sidebar">
+            <!-- START user info-->
+            <div class="item user-block">
+               <!-- User picture-->
+               <div class="user-block-picture">
+                  <div class="user-block-status">
+                     <img src="app/img/user/02.jpg" alt="Avatar" width="60" height="60" class="img-thumbnail img-circle">
+                     <div class="circle circle-success circle-lg"></div>
+                  </div>
+                  <!-- Status when collapsed-->
+               </div>
+               <!-- Name and Role-->
+               <div class="user-block-info">
+                  <span class="user-block-name item-text">Welcome User</span>
+                  <span class="user-block-role">UX-Dev</span>
+               </div>
+            </div>
+            <!-- END user info-->
+            <ul class="nav">
+               <!-- START Menu-->
+               <li class="nav-heading">Main navigation</li>
+               <li class="active">
+                  <a href="template.html#" title="Customer" data-toggle="collapse-next" class="has-submenu">
+                     <em class="fa fa-flask"></em>
+                     <span class="item-text">Customer</span>
+                  </a>
+                  <!-- START SubMenu item-->
+                  <ul class="nav collapse in">
+                     <li class="active">
+                        <a href="personal_info.html" title="Personal info" data-toggle="" class="no-submenu">
+                           <span class="item-text">Personal info</span>
+                        </a>
+                     </li>
+                  </ul>
+                  <!-- END SubMenu item-->
+               </li>
+               <li>
+                  <a href="template.html#" title="Rent Car" data-toggle="collapse-next" class="has-submenu">
+                     <em class="fa fa-edit"></em>
+                     <span class="item-text">Rent Car</span>
+                  </a>
+                  <!-- START SubMenu item-->
+                  <ul class="nav collapse ">
+                     <li>
+                        <a href="office_list.html" title="Start Rent!" data-toggle="" class="no-submenu">
+                           <span class="item-text">Start Rent!</span>
+                        </a>
+                     </li>
+                  </ul>
+                  <!-- END SubMenu item-->
+               </li>
+               <li>
+                  <a href="template_test.html" title="Order" data-toggle="" class="no-submenu">
+                     <em class="fa fa-dot-circle-o"></em>
+                     <span class="item-text">Order</span>
+                  </a>
+               </li>
+               <!-- END Menu-->
+            </ul>
+         </nav>
+         <!-- END Sidebar (left)-->
+      </aside>
+      <!-- End aside-->
+      <!-- START aside-->
+      <aside class="offsidebar">
+         <!-- START Off Sidebar (right)-->
+         <nav>
+            <div class="p-lg text-center">
+               <em class="fa fa-user"></em>
+               <strong>Connections</strong>
+            </div>
+            <ul class="nav">
+               <!-- END user info-->
+               <li class="p">
+                  <div class="form-group has-feedback">
+                     <input type="text" placeholder="Search contacts.." class="form-control input-sm">
+                     <em class="fa fa-search form-control-feedback text-muted"></em>
+                  </div>
+               </li>
+               <!-- START list title-->
+               <li class="p">
+                  <small class="text-muted">ONLINE</small>
+               </li>
+               <!-- END list title-->
+               <li>
+                  <!-- START User status-->
+                  <a href="template.html#" class="media p mt0">
+                     <span class="pull-right">
+                        <span class="circle circle-success circle-lg"></span>
+                     </span>
+                     <span class="pull-left">
+                        <!-- Contact avatar-->
+                        <img src="app/img/user/05.jpg" alt="Image" class="media-object img-circle thumb32">
+                     </span>
+                     <!-- Contact info-->
+                     <span class="media-body">
+                        <span class="media-heading">
+                           <strong>Laura Sam</strong>
+                           <br>
+                           <small class="text-muted">Lead, Developer</small>
+                        </span>
+                     </span>
+                  </a>
+                  <!-- END User status-->
+                  <!-- START User status-->
+                  <a href="template.html#" class="media p mt0">
+                     <span class="pull-right">
+                        <span class="circle circle-success circle-lg"></span>
+                     </span>
+                     <span class="pull-left">
+                        <!-- Contact avatar-->
+                        <img src="app/img/user/06.jpg" alt="Image" class="media-object img-circle thumb32">
+                     </span>
+                     <!-- Contact info-->
+                     <span class="media-body">
+                        <span class="media-heading">
+                           <strong>Beverley Pierce</strong>
+                           <br>
+                           <small class="text-muted">Writer</small>
+                        </span>
+                     </span>
+                  </a>
+                  <!-- END User status-->
+                  <!-- START User status-->
+                  <a href="template.html#" class="media p mt0">
+                     <span class="pull-right">
+                        <span class="circle circle-danger circle-lg"></span>
+                     </span>
+                     <span class="pull-left">
+                        <!-- Contact avatar-->
+                        <img src="app/img/user/07.jpg" alt="Image" class="media-object img-circle thumb32">
+                     </span>
+                     <!-- Contact info-->
+                     <span class="media-body">
+                        <span class="media-heading">
+                           <strong>Mika Long</strong>
+                           <br>
+                           <small class="text-muted">System Analyst</small>
+                        </span>
+                     </span>
+                  </a>
+                  <!-- END User status-->
+                  <!-- START User status-->
+                  <a href="template.html#" class="media p mt0">
+                     <span class="pull-right">
+                        <span class="circle circle-warning circle-lg"></span>
+                     </span>
+                     <span class="pull-left">
+                        <!-- Contact avatar-->
+                        <img src="app/img/user/08.jpg" alt="Image" class="media-object img-circle thumb32">
+                     </span>
+                     <!-- Contact info-->
+                     <span class="media-body">
+                        <span class="media-heading">
+                           <strong>Danielle Berry</strong>
+                           <br>
+                           <small class="text-muted">Developer</small>
+                        </span>
+                     </span>
+                  </a>
+                  <!-- END User status-->
+               </li>
+               <!-- START list title-->
+               <li class="p">
+                  <small class="text-muted">OFFLINE</small>
+               </li>
+               <!-- END list title-->
+               <li>
+                  <!-- START User status-->
+                  <a href="template.html#" class="media p mt0">
+                     <span class="pull-right">
+                        <span class="circle circle-lg"></span>
+                     </span>
+                     <span class="pull-left">
+                        <!-- Contact avatar-->
+                        <img src="app/img/user/09.jpg" alt="Image" class="media-object img-circle thumb32">
+                     </span>
+                     <!-- Contact info-->
+                     <span class="media-body">
+                        <span class="media-heading">
+                           <strong>Martin Cooper</strong>
+                           <br>
+                           <small class="text-muted">Designeer</small>
+                        </span>
+                     </span>
+                  </a>
+                  <!-- END User status-->
+                  <!-- START User status-->
+                  <a href="template.html#" class="media p mt0">
+                     <span class="pull-right">
+                        <span class="circle circle-lg"></span>
+                     </span>
+                     <span class="pull-left">
+                        <!-- Contact avatar-->
+                        <img src="app/img/user/10.jpg" alt="Image" class="media-object img-circle thumb32">
+                     </span>
+                     <!-- Contact info-->
+                     <span class="media-body">
+                        <span class="media-heading">
+                           <strong>Daniel Curtis</strong>
+                           <br>
+                           <small class="text-muted">Designer</small>
+                        </span>
+                     </span>
+                  </a>
+                  <!-- END User status-->
+               </li>
+               <li>
+                  <div class="p-lg text-center">
+                     <!-- Optional link to list more users-->
+                     <a href="template.html#" title="See more contacts" class="btn btn-purple btn-sm">
+                        <strong>Load more..</strong>
+                     </a>
+                  </div>
+               </li>
+            </ul>
+            <!-- Extra items-->
+            <div class="p">
+               <p>
+                  <small class="text-muted">Tasks completion</small>
+               </p>
+               <div class="progress progress-xs m0">
+                  <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success progress-80">
+                     <span class="sr-only">80% Complete</span>
+                  </div>
+               </div>
+            </div>
+            <div class="p">
+               <p>
+                  <small class="text-muted">Upload quota</small>
+               </p>
+               <div class="progress progress-xs m0">
+                  <div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-warning progress-40">
+                     <span class="sr-only">40% Complete</span>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <!-- END Off Sidebar (right)-->
+      </aside>
+      <!-- END aside-->
+      <!-- START Main section-->
+      <section>
+         <!-- START Page content-->
+         <div class="content-wrapper">
+            <h3>Page title
+               <small>Subtitle</small>
+            </h3>
+            <div class="row">
+               <div class="col-lg-12">
+
+                  <script type="text/javascript">
+                     function setForm(value) {
+                        if(value == 'debit'){
+                           document.getElementById('debit').style='display:block;';
+                           document.getElementById('giftcard').style='display:none;';
+                           document.getElementById('credit').style='display:none;';
+                        }
+                        else if(value == 'giftcard'){
+                           document.getElementById('debit').style='display:none;';
+                           document.getElementById('giftcard').style='display:block;';
+                           document.getElementById('credit').style='display:none;';
+                        }
+                        else{
+                           document.getElementById('debit').style='display:none;';
+                           document.getElementById('giftcard').style='display:none;';
+                           document.getElementById('credit').style='display:block;';
+                        }
+                     }
+                  </script>
+
+                  <form method="post" action="form-validation.html#" data-parsley-validate="" novalidate="">
+                     <!-- START panel-->
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <div class="panel-title">Personal Info</div>
+                        </div>
+                        <div class="panel-body">
+                           <select id="select1" onchange="setForm(this.value)">
+                              <option value="debit">debit</option>
+                              <option value="giftcard">giftcard</option>
+                              <option value="credit">credit</option>
+                           </select>
+                           <div id="debit" style="display: block">
+                              <div class="form-group">
+                                 <label class="control-label">SEV ID:</label>
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">PAY DATE:</label>
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">CARD NUMBER *</label>
+                                 <input type="text" name="cardnumber" required class="form-control">
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">PIN *</label>
+                                 <input type="text" name="pin" required class="form-control">
+                              </div>
+                              
+                           </div>
+                           <div id="giftcard" style="display: none">
+                              <div class="form-group">
+                                 <label class="control-label">SEV ID:</label>
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">PAY DATE:</label>
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">CARD NUMBER *</label>
+                                 <input type="text" name="cardnumber" required class="form-control">
+                              </div>
+                           </div>
+
+                           <div id="credit" style="display: none">
+                              <div class="form-group">
+                                 <label class="control-label">SEV ID:</label>
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">PAY DATE:</label>
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">CARD NUMBER *</label>
+                                 <input type="text" name="cardnumber" required class="form-control">
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">CVV *</label>
+                                 <input type="text" name="cvv" required class="form-control">
+                              </div>
+                              <div class="form-group">
+                                 <label class="control-label">VALID DATE *</label>
+                                 <input type="text" name="validdate" required class="form-control">
+                              </div>
+                           </div>
+
+
+                           <div class="required">* Required fields</div>
+                        </div>
+                        <div class="panel-footer">
+                           <div class="clearfix">
+                              <div class="pull-left">
+                                 <div class="checkbox c-checkbox">
+                                    <label>
+                                       <input type="checkbox" name="agreements" required data-parsley-error-message="Please read and agree the terms">
+                                       <span class="fa fa-check"></span>I agree with the <a href="form-validation.html#">terms</a>
+                                    </label>
+                                 </div>
+                              </div>
+                              <div class="pull-right">
+                                 <button type="submit" class="btn btn-primary">Submit</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- END panel-->
+                  </form>
+               </div>
+            </div>
+         </div>
+         <!-- END Page content-->
+      </section>
+      <!-- END Main section-->
+   </div>
+   <!-- END Main wrapper-->
+   <!-- START Scripts-->
+   <!-- Main vendor Scripts-->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+   <!-- Plugins-->
+   <script src="vendor/chosen/chosen.jquery.min.js"></script>
+   <script src="vendor/slider/js/bootstrap-slider.js"></script>
+   <script src="vendor/filestyle/bootstrap-filestyle.min.js"></script>
+   <!-- Animo-->
+   <script src="vendor/animo/animo.min.js"></script>
+   <!-- Sparklines-->
+   <script src="vendor/sparklines/jquery.sparkline.min.js"></script>
+   <!-- Slimscroll-->
+   <script src="vendor/slimscroll/jquery.slimscroll.min.js"></script>
+   <!-- Store + JSON-->
+   <script src="vendor/store/store+json2.min.js"></script>
+   <!-- ScreenFull-->
+   <script src="vendor/screenfull/screenfull.min.js"></script>
+   <!-- START Page Custom Script-->
+   <!-- END Page Custom Script-->
+   <!-- App Main-->
+   <script src="app/js/app.js"></script>
+   <!-- END Scripts-->
+</body>
+
+</html>
